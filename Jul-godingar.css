@@ -1,0 +1,248 @@
+/*Design information som ska vara med på varje sida!(Jul audition)*/
+.innehåll {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 40px;
+   margin-top: 40px;
+
+}
+
+.innehåll img {
+    width: 28%;
+    height: 28%;
+    border-radius: 30%;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border: 14px rgb(33, 142, 161) solid;}
+* {
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+}
+
+nav {
+   width: 100%;
+   height: 50px;
+   line-height: 50px;
+   padding: 0px 50px;
+   position: fixed;
+   top: 0px;
+   left: 0px;
+   z-index: 100%;
+   background-color: rgb(23, 85, 143);
+
+}
+
+nav .loga h1{
+   
+   font-size: 35px;
+   font-weight: bold;
+   font-family: "Molle", cursive;
+   float: left;
+   color: rgb(225, 233, 239);
+
+}
+nav ul {
+   float: right;
+}
+nav li {
+   display: inline-block;
+   list-style: none;
+   margin-left: 15px;
+
+}
+
+nav li a {
+   color: rgb(225, 233, 239);
+   text-decoration: none;
+   
+}
+
+nav a:hover {
+   background-color: rgb(48, 48, 109);;
+   
+}
+
+/*Information för varje sida avslutar!(jul adition)*/
+
+/*Här börjar jul godingar webb informationen!*/ 
+
+/*kolla upp hur man gör kollumner! KOM TILLBACKA!*/
+.Layout{
+   display: grid; grid-template-columns: 1fr 1fr;
+   justify-content: center;
+   align-items: start;
+   gap: 30px;
+   min-width: 500px;
+   margin: 0 auto;
+}
+
+h2 {
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   text-align: center;
+}
+
+/*Design för lavendel kanniner*/
+
+.Lavendel {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-bottom: 30px;
+}
+.Lavendel h3{ 
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   width: 400px;
+   text-align: center;
+   color: aliceblue;
+   background-color: hsl(225, 79%, 13%);
+   padding: 6px 0;
+}
+
+.Lavendel img {
+   height: 400px;
+   width: 400px;
+   align-items: left;
+}
+
+.Lavendel p {
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: medium;
+   padding: 13px; 
+   border: 10px solid hsl(225, 79%, 13%);
+   background-color: hsl(208, 100%, 97%);
+   max-width: 400px;
+   text-align: center;
+
+}
+
+
+/*Design för småtomtar momentet*/
+
+.tomtar {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-bottom: 30px;
+}
+
+.tomtar h3 {
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   width: 400px;
+   text-align: center;
+   color: aliceblue;
+   background-color: hsl(225, 79%, 13%);
+   padding: 6px 0; 
+}
+
+.tomtar img {
+   height: 400px;
+   width: 400px;
+   align-items: center;
+}
+
+.tomtar p {
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: medium;
+   padding: 13px; 
+   border: 10px solid hsl(225, 79%, 13%);
+   background-color: hsl(208, 100%, 97%);
+   max-width: 400px;
+   text-align: center;
+}
+
+/*Design för tomte dörrar moment*/
+
+.dörrar {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-bottom: 30px;   
+}
+
+.dörrar h3 {
+
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   width: 400px;
+   text-align: center;
+   color: aliceblue;
+   background-color: hsl(225, 79%, 13%);
+   padding: 6px 0;
+}
+
+.dörrar img {
+   height: 400px;
+   width: 400px;
+   align-items: center;
+}
+
+.dörrar p {
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: medium;
+   padding: 13px; 
+   border: 10px solid hsl(225, 79%, 13%);
+   background-color: hsl(208, 100%, 97%);
+   max-width: 400px;
+   text-align: center;
+}
+
+/*Design för etiketter moment*/
+
+.etiketter {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-bottom: 30px;
+}
+
+.etiketter h3 {
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   width: 400px;
+   text-align: center;
+   color: aliceblue;
+   background-color: hsl(225, 79%, 13%);
+   padding: 6px 0;
+}
+
+.etiketter img {
+   height: 400px;
+   width: 400px;
+   align-items: center;
+}
+
+.etiketter p {
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: medium;
+   padding: 13px; 
+   border: 10px solid hsl(225, 79%, 13%);
+   background-color: hsl(208, 100%, 97%);
+   max-width: 400px;
+   text-align: center;
+}
+
+/*Bakgrunds bild med snöflingor sammt bakgrunds färg!*/
+
+.snöflingor { 
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   position: fixed;
+   object-fit: cover;
+   mix-blend-mode: screen;
+   filter: contrast(300%) brightness(55%);
+   z-index: -1;
+   pointer-events: none;
+     
+}
+
+body {
+    background-color: lch(76.26% 24.64 266.26);
+    padding-top: 100px;
+    overflow-x: hidden; 
+      
+}
+ 
+
